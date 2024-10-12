@@ -15,7 +15,7 @@
   --text-destac: bold 1.5rem/150% var(--font-family);
 
   --bg-destac: rgb(255, 0, 0);
-  --bg-hero: url(./assets/bg-hero.png) no-repeat top / cover;
+  --bg-hero: url(../assets/bg-hero.png) no-repeat top / cover;
   --bg-gradient: linear-gradient(90deg, #ffd900 0%, #786705 100%);
   
 }
