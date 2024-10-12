@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --font-family: "Poppins", sans-serif;
+  --title: bold 2.35rem/140% var(--font-family);
+  --subtitle: 400 1.25rem/150% var(--font-family);
+  
+  --price: bold 3.5rem/150% var(--font-family);
+  --text-link: bold 2rem/150% var(--font-family);
+  --text-destac: bold 1.5rem/150% var(--font-family);
+
+  --bg-destac: rgb(255, 0, 0);
+  --bg-hero: url(/assets/bg-hero.png) no-repeat top / cover;
+  --bg-gradient: linear-gradient(90deg, #ffd900 0%, #786705 100%);
+  
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}

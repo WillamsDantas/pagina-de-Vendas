@@ -1,0 +1,73 @@
+#hero-section {
+  position: absolute;
+  width: 100vw;
+  height: 45rem;
+  background: var(--bg-hero);
+}
+
+.hero-content {
+  width: 80rem;
+  margin: 5rem auto;
+  color: white;
+  text-align: justify;
+}
+
+.title {
+  width: 50%;
+
+  & h1 {
+    font: var(--title);
+    span {
+      color: goldenrod;
+    }
+  }
+}
+
+.subtitle {
+  width: 50%;
+  & p {
+    font: var(--subtitle);
+    margin-block: 1.5rem;
+  }
+}
+
+.checkout {
+  width: 32.75rem;
+
+  & button {
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    background: var(--bg-gradient);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background-color: #e6c200;
+      transform: scale(1.05);
+      transition: all 0.2s ease-in-out;
+    }
+
+    a {
+      font: var(--text-link);
+      color: black;
+    }
+  }
+
+  .price {
+    margin-block: 1.5rem;
+    font: var(--price);
+    text-align: center;
+  }
+
+  .red-card {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: var(--text-destac);
+    text-transform: uppercase;
+    background: var(--bg-destac);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
